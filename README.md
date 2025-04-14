@@ -29,7 +29,8 @@ JavaScript (Vanilla JS) – Lógica de interação, manipulação de dados e DOM
 LocalStorage – Para persistência de dados no navegador
 
 🖼️ Demonstração
-(Você pode inserir aqui uma imagem ou GIF do site funcionando, se desejar)
+![image](https://github.com/user-attachments/assets/025a9001-2ac6-4987-b026-b2af34056dc1)
+
 
 📚 Requisitos para rodar
 Navegador moderno (Chrome, Firefox, Edge etc.)
