@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestão de Projetos - ENIAC</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  
+</head>
+<body>
+    <header>
+        <div class="header-content">
+          <img src="logo.jpeg" alt="Logo ENIAC" class="logo">
+          <h1>Gestão de Projetos - ENIAC</h1>
+        </div>
+      </header>
+      
+
+  <main>
+    <section id="project-section">
+      <h2>Novo Projeto</h2>
+      <input type="text" id="project-name" placeholder="Nome do projeto">
+      <button onclick="createProject()">Criar Projeto</button>
+
+      <div id="search-box">
+        <input type="text" id="search-input" placeholder="Buscar projeto..." oninput="renderProjects()">
+      </div>
+
+      <div id="projects"></div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+
+</body>
+</html>
+
+
+colocar tudo na pasta backend
+backend/
+├── db.js
+├── server.js
+├── routes/
+│   └── projetos.js
+
+node modulos
+
+--! CREATE TABLE projetos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL
+);
+!/
+
+!/dentro da pasta backend
+
+
+!/ node server.js
+
